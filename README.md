@@ -17,7 +17,7 @@ NOTE : PLEASE USE YOUR chatbot.json file in the assets.
 
 ## Authors
 
-* **Aseem Wangoo** - *Initial work* - [PurpleBooth](https://flatteredwithflutter.com)
+* **Aseem Wangoo** - *Initial work* - (https://flatteredwithflutter.com)
 
 ## License
 
