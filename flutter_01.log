@@ -1,0 +1,79 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --suppress-analytics build bundle --target-platform=ios --target=/Users/aseemwangoo/Documents/my learning stuff/2019/swift/experiments/lib/main.dart --debug --depfile=build/snapshot_blob.bin.d --asset-dir=/Users/aseemwangoo/Documents/my learning stuff/2019/swift/experiments/ios/Flutter/flutter_assets
+
+## exception
+
+FileSystemException: FileSystemException: writeFrom failed, path = '/Users/aseemwangoo/flutter/version' (OS Error: No space left on device, errno = 28)
+
+```
+#0      _RandomAccessFile.writeFrom.<anonymous closure> (dart:io/file_impl.dart:856:9)
+#1      _rootRunUnary (dart:async/zone.dart:1132:38)
+#2      _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#3      _FutureListener.handleValue (dart:async/future_impl.dart:126:18)
+#4      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:639:45)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:668:32)
+#6      Future._completeWithValue (dart:async/future_impl.dart:483:5)
+#7      Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:513:7)
+#8      _rootRun (dart:async/zone.dart:1124:13)
+#9      _CustomZone.run (dart:async/zone.dart:1021:19)
+#10     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:947:23)
+#11     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#12     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#13     _runPendingImmediateCallback (dart:isolate/runtime/libisolate_patch.dart:115:13)
+#14     _RawReceivePortImpl._handleMessage (dart:isolate/runtime/libisolate_patch.dart:172:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, v1.1.8, on Mac OS X 10.13.4 17E199, locale en-SG)
+    • Flutter version 1.1.8 at /Users/aseemwangoo/flutter
+    • Framework revision 985ccb6d14 (6 weeks ago), 2019-01-08 13:45:55 -0800
+    • Engine revision 7112b72cc2
+    • Dart version 2.1.1 (build 2.1.1-dev.0.1 ec86471ccc)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at /Users/aseemwangoo/Library/Android/sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-28, build-tools 28.0.3
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
+    • All Android licenses accepted.
+
+[!] iOS toolchain - develop for iOS devices (Xcode 9.4.1)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 9.4.1, Build version 9F2000
+    ✗ Verify that all connected devices have been paired with this computer in Xcode.
+      If all devices have been paired, libimobiledevice and ideviceinstaller may require updating.
+      To update with Brew, run:
+        brew update
+        brew uninstall --ignore-dependencies libimobiledevice
+        brew uninstall --ignore-dependencies usbmuxd
+        brew install --HEAD usbmuxd
+        brew unlink usbmuxd
+        brew link usbmuxd
+        brew install --HEAD libimobiledevice
+        brew install ideviceinstaller
+    • ios-deploy 1.9.2
+    ✗ ios-deploy out of date (1.9.4 is required). To upgrade with Brew:
+        brew upgrade ios-deploy
+    • CocoaPods version 1.6.0
+
+[✓] Android Studio (version 3.1)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin version 29.0.1
+    • Dart plugin version 173.4700
+    • Java version    7508
+
+[✓] VS Code (version 1.26.1)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 2.21.1
+
+[✓] Connected device (1 available)
+    • iPhone X • 9882154A-44D0-43EB-9196-EA0B8E5AA829 • ios • iOS 11.4 (simulator)
+
+! Doctor found issues in 1 category.
+```

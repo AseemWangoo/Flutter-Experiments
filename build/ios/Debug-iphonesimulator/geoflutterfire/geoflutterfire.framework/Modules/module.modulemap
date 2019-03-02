@@ -1,0 +1,11 @@
+framework module geoflutterfire {
+  umbrella header "geoflutterfire-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module geoflutterfire.Swift {
+    header "geoflutterfire-Swift.h"
+    requires objc
+}

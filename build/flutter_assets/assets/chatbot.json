@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "appointmentscheduler-47e4a",
+  "private_key_id": "6d66fbaa264beeacbf25528e92ab9e2eaa2bd465",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCP6TluzReQaHAJ\nzAO5fjqiHufEaTXDT+N98Np0Nftllg66VVJaLndC6ykB2Uy2OcYH5cn9b73YqK4L\nkOGW/OygjkScxup97fNaqXhhqcRx6XLpVqgdpw289is5WuUzjxbWE7ZQTvyjZ5LX\nj3bvSC4z4I6JK7w4WJNO1Dlb2clYBGkmA06xgIA8EkngufbTwNl602NntHpZrAeV\n1NluYISA1xqqhU2zfyNbsMc0jDpJXD4ZGy0yIc6x5F8wcOcCMyw2TJ5w2UuqYlBN\nCt1qN/5Ev0YaZYuiSZXh5GLfUcxm4PHHa5KIo90vR65QEQGYaRua4sM3iyJKYnW4\nMoDUuch9AgMBAAECggEABtorhmeUjicy4nyI1t24S/zduz/pM+4LXnVH6Y2idUFS\nXTPv0mRxAEozLyfaG7kfgUPDPOKDrxvFAb75xtcvKyvq/24HP0zDsBbuqPPM60Ga\n25ppMdRA9rTf9QCrdiuDglj47tT7+YnWd5YYqycMMCMqlkRzV1l8Vh4LxyBVEnA9\nCSO1hpzKX++MBo0B5l/Ct4B7xC3B66sqASOoHtqTiRW12CH3m0msEvIr42fB0/WE\nd0vUYl9PFR7qI8KMuu4003bzCpjih+i88+nCgWLmtaatNrRRtHg/lA4JkWTEhCRH\nHBpYRgs0IT6gLDkVsXIG/mWPdSW58Hc6631CTwKczwKBgQDG9m3w/qLV6zMSkefE\nYOVQS1hVPWQAV2p2iUz72zGyK+ciaXRi9fWTGFQW2/t9oXVrfET6LokObdIO5M7c\ngrBrjnZJJIxGOap86y6Cgzx2pi7KLkTqG6Jvpv7MfedOl9H4EItluT4a//HDjm1c\nih7JwLrMaBcp7A+56y6hf7SmmwKBgQC5KqQei0Gru6anZ60Jr3h3phdl5Er4zggq\nrnX1u/sQi2P6PGfGlOfWMOIjMWvXdvAEYlG74MvyUJ+k3MiuiPNJr7C33PCtRCY4\nJ1miTfKz6msA9PwhpVbJ/oxcYp54UdgcwSJZUzGRat/UdFaTqUiFF1okcpIcshH5\nT7psf2YyxwKBgCrL/TAWhc4/7ldzPQhX01unKVQEhYsxQnxG4mFWb+UkXm5fgqJ6\nx50hYY0dOoZ2gXxiWa/67I5G/yUnAHwcPHiWR0lKbEX6x3phWDrIoevfqTbiJv64\nfQNJR4uTFXspWwfh/yodY4eJQGbRLyL1rtO0+jlXtovU9DkIppokjyY7AoGADzQO\nF6ftc3FL5LDhh0sOBBzyDN6qvTUFfKOocc3GdnxLcC9ngemWA4Mt/h+/sAhG+sUr\n2tZBSJsQEJREMfhyqVkwlFgitsdCsBejB22JAPa9ZG25CfYuYxVwZuF+C3kE2o+N\nB3KKPltdF2+Z8DPVDYB2WUnC73I7gZHnR6NKO98CgYA55x9Ysc1M0U+JsLjbOaKO\nf26OxEuI1MY3ckCRT0aq0PIhH7KWNLzH5Ab5Ht4cKkwGkFNHthQVuHDMN1rHHHNT\neZQgiKKUj09Sep91tTL1g2pQj+filyd5NZIOPwJ6FqPgbTZvTcQjLPVZQqCzKnZt\nv6zZHq7kmU8tz0VY0DS6Rg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-bwgdql@appointmentscheduler-47e4a.iam.gserviceaccount.com",
+  "client_id": "100143794502295659672",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-bwgdql%40appointmentscheduler-47e4a.iam.gserviceaccount.com"
+}
